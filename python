@@ -1,0 +1,14 @@
+a = int(input())
+if a>=18:
+    print("elisible for vote")
+else:
+    print("not elisible for vote")
+
+
+
+#programming2#
+a = input()
+if a[0]==a[len(a)-1]:
+    print("lucky")
+else:
+    print("not lucky")
