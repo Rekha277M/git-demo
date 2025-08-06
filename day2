@@ -1,0 +1,18 @@
+
+num = "1 2 3 4"
+num1 = num.split()
+print(num1)
+
+#factorial#
+n = int(input("Enter values: "))
+fact = 1
+for i in range(n, 1, -1):
+    fact *= i
+print(fact)
+
+#unique number#
+list = [1,1,2,2,5]
+first_sum = sum(list)
+second_sum = sum(set(list)) *2
+res = second_sum - first_sum
+print(res)
